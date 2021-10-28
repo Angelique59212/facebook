@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Lato:wght@100;400&family=Roboto:wght@100;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+#section1 {
+    width: 42%;
+    display: inline-block;
+    margin: 110px 70px;
+    padding: 10px 20px;
+}
+
+#section2 {
+    width: 29%;
+    display: inline-block;
+    margin-top: 8rem;
+    margin-left: 7rem;
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 3px 8px 5px rgba(0, 0, 0, 0.12);;
+}
+
+input[type=email], input[type=password], input[type=submit] {
+    font-size: 1.2rem;
+    width: 95%;
+    margin-left: 0.6rem;
+    margin-top: 1rem;
+}
+
+input[type=email], input[type=password] {
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #dddfe2;
+    font-size: 2rem;
+}
+
+input[type=submit] {
+    padding: 1.3rem;
+    border-radius: 0.5rem;
+    background-color: #166fe5;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    border: 1px solid #166fe5;
+}
+
+#new_account {
+    background-color: #36a420;
+    width: 60%;
+    margin-left: 7rem;
+    margin-top: 2.8rem;
+    border: 1px solid #36a420;
+    padding: 1.3rem;
+    margin-bottom: 2.5rem;
+}
+
+a {
+    padding: 11rem;
+    font-size: 1.2rem;
+    text-decoration-line: none;
+    color: #1877f2;
+    position: relative;
+    top: 0.4rem;
+    left: 1rem;
+}
+
+hr {
+    color: darkgray;
+    margin-top: 3rem;
+    width: 90%;
+    margin-left: 1.7rem;
+}
+
+h1 {
+    color: blue;
+    font-size: 5rem;
+    margin: 10px 20px;
+    font-weight: bold;
+}
+
+h1 + p {
+    margin: 10px 20px;
+    font-size: 2.7rem;
+}
+
+.inline {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 1.2rem;
+    margin-left: 11rem;
+    color: #8a8d91;
+}
+
+li {
+    display: inline-block;
+    padding: 0.8rem;
+}
+
+footer {
+    margin-top: 30rem;
+    background-color: white;
+}
+
+#bottom {
+    width: 80%;
+    margin-left: 12rem;
+    margin-top: 0;
+}
+
+#create {
+    width: 28%;
+    margin-top: 6rem;
+    margin-left: 58%;
+    font-size: 1.5rem;
+}
+
+span {
+    font-weight: bold;
+}
+
+#facebook {
+    width: 20%;
+    font-size: 1.2rem;
+    margin-left: 11.6rem;
+    margin-top: 3rem;
+    color: #8a8d91;
+}
